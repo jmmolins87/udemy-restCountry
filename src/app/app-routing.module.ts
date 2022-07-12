@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { PorPaisComponent } from './country/por-pais/por-pais.component';
-import { PorCapitalComponent } from './country/por-capital/por-capital.component';
-import { PorRegionComponent } from './country/por-region/por-region.component';
-import { VerPaisComponent } from './country/ver-pais/ver-pais.component';
+import { PorCapitalComponent } from './country/pages/por-capital/por-capital.component';
+import { PorPaisComponent } from './country/pages/por-pais/por-pais.component';
+import { PorRegionComponent } from './country/pages/por-region/por-region.component';
+import { VerPaisComponent } from './country/pages/ver-pais/ver-pais.component';
 
 const routes: Routes = [
   {
