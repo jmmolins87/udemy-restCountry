@@ -3,3 +3,9 @@
 .c-pointer {
     cursor: pointer !important;
 }
+.small-flag {
+    width: 50px !important;
+}
+.bold {
+    font-weight: 700 !important;
+}
