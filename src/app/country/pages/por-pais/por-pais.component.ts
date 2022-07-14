@@ -18,9 +18,9 @@ export class PorPaisComponent {
     private _countryService: CountryService
   ) { }
 
-  buscar() {
+  buscar( termino: string ) {
     this.hasError;
-    console.log(this.termino);
+    this.termino = termino;
     
     this._countryService.buscarPais(this.termino)
     .subscribe( countries => {
