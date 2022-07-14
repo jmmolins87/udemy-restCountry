@@ -33,4 +33,9 @@ export class PorPaisComponent {
     });
   }
 
+  sugerencias( termino: string ) {
+    this.hasError = false;
+    // toDo: crear sugerencias
+  }
+
 }
