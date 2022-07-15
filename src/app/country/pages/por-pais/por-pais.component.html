@@ -5,8 +5,8 @@
         <div class="col">
             <app-country-input 
                 (onEnter)="buscar($event)"
-                (onDebounce)="sugerencias($event)"
-                ></app-country-input>
+                (onDebounce)="sugerencias($event)">
+            </app-country-input>
         </div>
     </div>
     <hr>
@@ -15,7 +15,9 @@
     </div>
     <div class="row">
         <div class="col">
-            <app-country-table [countries]="countries"></app-country-table>
+            <app-country-table 
+                [countries]="countries">
+            </app-country-table>
         </div>
     </div>
 </div>
