@@ -9,3 +9,7 @@
 .bold {
     font-weight: 700 !important;
 }
+.sticky-30 {
+    position: sticky;
+    top: 30px;
+}
