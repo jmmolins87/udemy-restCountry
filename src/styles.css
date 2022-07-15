@@ -1,13 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 
 .c-pointer {
-    cursor: pointer !important;
+    cursor: pointer;
 }
 .small-flag {
-    width: 50px !important;
+    width: 50px;
 }
 .bold {
-    font-weight: 700 !important;
+    font-weight: 700;
 }
 .sticky-30 {
     position: sticky;
